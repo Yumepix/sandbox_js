@@ -5,7 +5,7 @@ let ensembleVide = new Set();
 console.log(ensembleVide);
 
 // Création d'un ensemble à partir d'un tableau
-let ensemble = new Set([5,2,4]);
+let ensemble = new Set([5,2,2,2,4]);
 console.log(ensemble);
 
 // Ajout d'un élément (42) dans l'ensemble
