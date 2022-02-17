@@ -1,5 +1,5 @@
 const { assert}  = require('chai')
-const Position = require('../search_insert_position')
+const Position = require('../js/search_insert_position')
 
 
 describe('Bonjour', function() {
