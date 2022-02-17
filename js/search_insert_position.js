@@ -2,7 +2,11 @@ class Position {
 
     searchInsert(nums, target) {
 
-        return 1;
+        let index = nums.findIndex((elem) => elem >= target)
+        if (index === -1) {
+            index = nums.length
+        }
+        return index
 
     };
 }

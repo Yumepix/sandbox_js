@@ -20,4 +20,9 @@ describe('Bonjour', function() {
     it('should return 5', function () {
         assert.equal(position.searchInsert([1,2,3,5,6,9],7), 5);
     });
+
+    it('should return 5', function () {
+        assert.equal(position.searchInsert([1,3,5,6],7), 4);
+    });
+
 });
