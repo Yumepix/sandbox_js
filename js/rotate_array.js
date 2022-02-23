@@ -3,7 +3,16 @@
 class MyClass {
 
     rotate(nums, k) {
-        return [5,6,7,1,2,3,4]
+        // for(let i = 0; i<k ; i++) {
+        //     const temp = nums.pop()
+        //     nums.unshift(temp)
+        // }
+        // return nums
+
+        return nums.splice(nums.length-k).concat(nums);
+
+
+
     }
 
 }
